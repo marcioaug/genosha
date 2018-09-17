@@ -1,0 +1,10 @@
+targetOp {
+    BIN(>)->{==,<=,>=,!=,FALSE,<,TRUE,LHS,RHS};
+    BIN(<)->{==,<=,>=,!=,FALSE,>,TRUE,LHS,RHS};
+    BIN(>=)->{==,<=,!=,FALSE,<,>,TRUE,LHS,RHS};
+    BIN(<=)->{==,>=,!=,FALSE,<,>,TRUE,LHS,RHS};
+    BIN(==)->{<=,>=,!=,FALSE,<,>,TRUE,LHS,RHS};
+    BIN(!=)->{==,<=,>=,FALSE,<,>,TRUE,LHS,RHS};
+
+    ROR;
+}

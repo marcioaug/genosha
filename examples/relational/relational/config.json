@@ -1,0 +1,82 @@
+{
+  "project": "relational",
+  "source": ["."],
+  "clean": false,
+  "ignore": true,
+  "randoop": {
+    "parameters": [
+        "--output-limit=100",
+        "--maxsize=100",
+        "--testsperfile=2000",
+        "--only-test-public-members=true",
+        "--time-limit=10",
+        "--progressintervalsteps=-1",
+        "--progressintervalmillis=-1",
+        "--flaky-test-behavior=DISCARD",
+        "--progressdisplay=false",
+        "--usethreads=true",
+        "--call_timeout=1000"
+    ]
+  },
+  "evosuite": {
+    "parameters": [
+
+    ]
+  },
+  "targets": [
+    {
+      "id": 0,
+      "ignore": false,
+      "class": "br.ufal.ic.masg.operations.GreaterOrEqualThan",
+      "method": "function(int,int)",
+      "line": 9,
+      "operators": "ror.mml",
+      "statement": "var1 >= var2"
+    },
+    {
+      "id": 1,
+      "ignore": false,
+      "class": "br.ufal.ic.masg.operations.GreaterThan",
+      "method": "function(int,int)",
+      "line": 9,
+      "operators": "ror.mml",
+      "statement": "var1 > var2"
+    },
+    {
+      "id": 2,
+      "ignore": false,
+      "class": "br.ufal.ic.masg.operations.Equal",
+      "method": "function(int,int)",
+      "line": 9,
+      "operators": "ror.mml",
+      "statement": "var1 == var2"
+    },
+    {
+      "id": 3,
+      "ignore": false,
+      "class": "br.ufal.ic.masg.operations.LessOrEqualThan",
+      "method": "function(int,int)",
+      "line": 9,
+      "operators": "ror.mml",
+      "statement": "var1 <= var2"
+    },
+    {
+      "id": 4,
+      "ignore": false,
+      "class": "br.ufal.ic.masg.operations.LessThan",
+      "method": "function(int,int)",
+      "line": 9,
+      "operators": "ror.mml",
+      "statement": "var1 < var2"
+    },
+    {
+      "id": 5,
+      "ignore": false,
+      "class": "br.ufal.ic.masg.operations.NotEqual",
+      "method": "function(int,int)",
+      "line": 9,
+      "operators": "ror.mml",
+      "statement": "var1 != var2"
+    }
+  ]
+}

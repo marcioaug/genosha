@@ -1,0 +1,7 @@
+br/ufal/ic/masg/operations/Equal.class
+br/ufal/ic/masg/operations/NotEqual.class
+br/ufal/ic/masg/operations/LessThan.class
+br/ufal/ic/masg/Operation.class
+br/ufal/ic/masg/operations/GreaterOrEqualThan.class
+br/ufal/ic/masg/operations/GreaterThan.class
+br/ufal/ic/masg/operations/LessOrEqualThan.class
